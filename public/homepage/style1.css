@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* HALAMAN 1 */
+
+.halaman1 {
+  background-image: url(image/main-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.menu-utama {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.menu-daftar {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.headline-content {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+  .headline-content {
+    height: 80vh;
+  }
+}
+
+.content-title {
+  position: relative;
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+  letter-spacing: 5px;
+}
+
+.content-description {
+  position: relative;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.btn-playnow {
+  position: relative;
+  background-color: orange;
+  color: black;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-transform: uppercase;
+}
+
+.thestory {
+  cursor: pointer;
+}
+
+.text-story {
+  position: relative;
+  top: 97%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+  margin-top: 20px;
+}
+
+.image-story {
+  position: relative;
+  top: 99%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../layout/head') %>
+  </head>
+  <body>
+    <%- include('../layout/navbar'); %>
+
+    <div class="container-fluid">
+      <div class="row">
+        <%- include('../layout/sidebar'); %>
+
+        <main role="main" class="col-md-9 ms-sm-auto col-lg-10 pt-3 px-4">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          >
+            <h1 class="h2">Add User</h1>
+          </div>
+
+          <form method="POST" action="/user/post">
+            <div class="mb-3">
+              <label class="form-label">USERNAME</label>
+              <input
+                type="string"
+                name="username"
+                class="form-control"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">PASSWORD</label>
+              <input
+                type="string"
+                name="password"
+                class="form-control"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">EMAIL</label>
+              <input
+                type="string"
+                name="email"
+                class="form-control"
+              />
+            </div>
+
+            <button type="submit" class="btn btn-success">Saved</button>
+          </form>
+        </main>
+      </div>
+    </div>
+
+    <%- include('../layout/script'); %>
+  </body>
+</html>

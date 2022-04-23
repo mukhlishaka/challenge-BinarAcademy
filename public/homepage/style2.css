@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* HALAMAN 2 */
+.bagian {
+  background-size: cover;
+  background-position: center;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+@media screen and (min-width: 768px) and (min-height: 500px) {
+  .bagian {
+    height: 100vh;
+  }
+}
+
+#thegames {
+  background-image: url(image/the-games-bg.jpg);
+}
+
+.special-teks {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.games-teks {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.tombol-kiri {
+  margin-left: -85px;
+}
+
+.tombol-kanan {
+  margin-right: -85px;
+}
+
+@media screen and (max-width: 768px) {
+  .tombol-kiri {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tombol-kanan {
+    margin-right: 0px;
+  }
+}

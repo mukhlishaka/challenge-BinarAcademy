@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+#score {
+  background-image: url(image/image-5.png);
+  background-color: black;
+  height: 100%;
+
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    display: inline-block;
+  }
+}
+
+/* border testimoni */
+.border-style-1,
+.border-style-2,
+.border-style-3 {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.image-1 {
+  border-radius: 50%;
+}
+
+.image-2 {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.image-3 {
+  border-radius: 50%;
+  width: 70px;
+}
+
+.nama-1,
+.nama-2,
+.nama-3 {
+  font-size: 24px;
+  color: #ffb548;
+}
+
+.job-1,
+.job-2,
+.job-3 {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.twitter-1,
+.twitter-2,
+.twitter-3 {
+  margin-left: 60px;
+}
+
+.comment-1,
+.comment-2,
+.comment-3 {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.date-1,
+.date-2,
+.date-3 {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.title-score {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 5px;
+}
+
+.desc-score {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  margin: 5px;
+}
+
+.btn-seemore {
+  font-family: "Open Sans", sans-serif;
+  text-transform: lowercase;
+  background-color: orange;
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}

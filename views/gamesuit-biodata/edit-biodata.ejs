@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../layout/head') %>
+  </head>
+  <body>
+    <%- include('../layout/navbar'); %>
+
+    <div class="container-fluid">
+      <div class="row">
+        <%- include('../layout/sidebar'); %>
+
+        <main role="main" class="col-md-9 ms-sm-auto col-lg-10 pt-3 px-4">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom"
+          >
+            <h1 class="h2">Edit Biodata</h1>
+          </div>
+
+          <form method="POST" action="/biodata/edit">
+            <div class="mb-3">
+              <label class="form-label">GAME ID</label>
+              <input
+                type="number"
+                name="gameid"
+                value=<%= userBiodata.gameid %> 
+                class="form-control"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">NAME</label>
+              <input
+                type="string"
+                name="name"
+                value=<%= userBiodata.name %>
+                class="form-control"
+              />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">HOBBY</label>
+                <input
+                  type="string"
+                  name="hobby"
+                  value=<%= userBiodata.hobby %>
+                  class="form-control"
+                />
+              </div>
+
+            <div class="mb-3">
+                <label class="form-label"></label>
+                <input
+                  type="hidden"
+                  name="id"
+                  value=<%= userBiodata.id %> 
+                  class="form-control"
+                />
+              </div>
+
+            <button type="submit" class="btn btn-success">Saved</button>
+          </form>
+        </main>
+      </div>
+    </div>
+
+    <%- include('../layout/script'); %>
+  </body>
+</html>

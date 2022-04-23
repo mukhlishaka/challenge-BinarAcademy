@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* HALAMAN 3 */
+
+#features {
+  background-image: url(image/features.jpg);
+  height: 100vh;
+}
+
+.features-teks {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.judul-titik-1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.judul-titik-1::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 2px solid white;
+  right: 960px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .judul-titik-1::before {
+    right: 720px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .judul-titik-1::before {
+    right: 520px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .judul-titik-1::before {
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .judul-titik-1::before {
+    right: 210px;
+  }
+}
+
+.timeline {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  width: 0.5px;
+  height: 70px;
+  background-color: white;
+  border: 2px solid white;
+  right: 960px;
+  margin: 5px;
+  margin-top: -25px;
+}
+
+@media screen and (max-width: 1440px) {
+  .timeline::before {
+    right: 720px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .timeline::before {
+    height: 95px;
+    right: 520px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::before {
+    height: 95px;
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .timeline::before {
+    height: 155px;
+    right: 210px;
+    margin-top: -38px;
+  }
+}
+
+.judul-titik-2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.judul-titik-2::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  right: 960px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .judul-titik-2::before {
+    right: 720px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .judul-titik-2::before {
+    right: 520px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .judul-titik-2::before {
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .judul-titik-2::before {
+    right: 210px;
+  }
+}
+
+.judul-titik-3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.judul-titik-3::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  right: 960px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1440px) {
+  .judul-titik-3::before {
+    right: 720px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .judul-titik-3::before {
+    right: 520px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .judul-titik-3::before {
+    right: 380px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .judul-titik-3::before {
+    right: 210px;
+  }
+}

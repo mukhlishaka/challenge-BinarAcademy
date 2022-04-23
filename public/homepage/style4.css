@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+#requirement {
+  background-image: url(image/requirements.png);
+}
+
+.can-teks {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.system-teks,
+.req-teks {
+  font-size: 46px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.spec-teks {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.desc-teks {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: start;
+}
